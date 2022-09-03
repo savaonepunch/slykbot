@@ -1,0 +1,9 @@
+{
+    "reddit": {
+        "userAgent": "any userAgent",
+        "clientId": "clientId",
+        "clientSecret": "clientSecret",
+        "refreshToken": "refreshToken",
+        "folderpath": "reddit_media/"
+    }
+}
