@@ -1,9 +1,7 @@
 {
     "reddit": {
-        "userAgent": "any userAgent",
-        "clientId": "clientId",
-        "clientSecret": "clientSecret",
-        "refreshToken": "refreshToken",
-        "folderpath": "reddit_media/"
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; rv:104.0) Gecko/20100101 Firefox/104.0",
+        "folderpath": "reddit_media/",
+        "uploadLimit": 8000000
     }
 }

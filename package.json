@@ -1,8 +1,14 @@
 {
   "dependencies": {
+    "catbox.moe": "^1.0.2",
     "discord.js": "^14.3.0",
+    "dotenv": "^16.0.2",
     "fluent-ffmpeg": "^2.1.2",
     "snoowrap": "^1.23.0",
     "url-file-size": "^1.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-google": "^0.14.0"
   }
 }
