@@ -1,18 +1,10 @@
 // response of a call to the reddit module
-module.exports.RedditObj = function redditObj(title = '', content = '', type = '') {
+module.exports.RedditObj = function redditObj(title = '', content = '', type = '', postUrl = '') {
 	this.title = title;
 	this.content = content;
 	this.type = type;
+	this.postUrl = postUrl;
 };
-
-// reddit views 
-module.exports.REDDIT_PAGE = Object.freeze({
-	HOT: Symbol('HOT'),
-	NEW: Symbol('NEW'),
-	TOP: Symbol('TOP'),
-	RISING: Symbol('RISING'),
-	CONTROVERSAL: Symbol('CONTROVERSAL'),
-});
 
 // types of reddit responses
 module.exports.REDDIT_TYPE = Object.freeze({
@@ -20,5 +12,5 @@ module.exports.REDDIT_TYPE = Object.freeze({
 	IMAGE: Symbol('IMAGE'),
 	VIDEO: Symbol('VIDEO'),
 	WEBSITE: Symbol('WEBSITE'),
-	ERROR: Symbol('ERROR') // response from the module of error occurs
+	ERROR: Symbol('ERROR'),
 });
