@@ -1,3 +1,4 @@
+'use strict';
 // response of a call to the reddit module
 module.exports.RedditObj = function redditObj(title = '', content = '', type = '', postUrl = '') {
 	this.title = title;
